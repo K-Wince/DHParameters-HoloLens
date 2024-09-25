@@ -312,6 +312,11 @@ PlayerSettings:
     m_Enabled: 1
     m_Devices:
     - HoloLens
+  - m_BuildTarget: Standalone
+    m_Enabled: 1
+    m_Devices:
+    - Oculus
+    - OpenVR
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
@@ -581,9 +586,9 @@ PlayerSettings:
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: LongQian
-  metroCertificateIssuer: LongQian
-  metroCertificateNotAfter: 002a7709746ddb01
+  metroCertificateSubject: KadenWince
+  metroCertificateIssuer: KadenWince
+  metroCertificateNotAfter: 80dd3a240b2ddc01
   metroApplicationDescription: HoloLensARToolKit
   wsaImages:
     65636: Assets/Sample/Logo/StoreLogo.png
