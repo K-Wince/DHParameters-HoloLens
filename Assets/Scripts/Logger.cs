@@ -30,13 +30,13 @@ public class Logger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        canvas.GetChild(0).GetComponent<TextMeshPro>().SetText("Frame 0: (" + frame0.position.x.ToString("F5") + ", " + frame0.position.y.ToString("F5") + ", " + frame0.position.z.ToString("F5") + ")");
-        canvas.GetChild(1).GetComponent<TextMeshPro>().SetText("Frame 1: (" + frame1.position.x.ToString("F5") + ", " + frame1.position.y.ToString("F5") + ", " + frame1.position.z.ToString("F5") + ")");
-        canvas.GetChild(2).GetComponent<TextMeshPro>().SetText("Frame 2: (" + frame2.position.x.ToString("F5") + ", " + frame2.position.y.ToString("F5") + ", " + frame2.position.z.ToString("F5") + ")");
-        canvas.GetChild(3).GetComponent<TextMeshPro>().SetText("Frame 3: (" + frame3.position.x.ToString("F5") + ", " + frame3.position.y.ToString("F5") + ", " + frame3.position.z.ToString("F5") + ")");
-        canvas.GetChild(4).GetComponent<TextMeshPro>().SetText("Frame 4: (" + frame4.position.x.ToString("F5") + ", " + frame4.position.y.ToString("F5") + ", " + frame4.position.z.ToString("F5") + ")");
-        canvas.GetChild(5).GetComponent<TextMeshPro>().SetText("Frame 5: (" + frame5.position.x.ToString("F5") + ", " + frame5.position.y.ToString("F5") + ", " + frame5.position.z.ToString("F5") + ")");
-        canvas.GetChild(6).GetComponent<TextMeshPro>().SetText("Frame 6: (" + frame6.position.x.ToString("F5") + ", " + frame6.position.y.ToString("F5") + ", " + frame6.position.z.ToString("F5") + ")");
+        canvas.GetChild(0).GetComponent<TextMeshPro>().SetText("Frame 0: (" + frame0.position.x.ToString("F5") + ", " + frame0.position.y.ToString("F5") + ", " + frame0.position.z.ToString("F5") + ")\n" + "(" + frame0.eulerAngles.x.ToString("F3") + ", " + frame0.eulerAngles.y.ToString("F3") + ", " + frame0.eulerAngles.z.ToString("F3") + ")");
+        canvas.GetChild(1).GetComponent<TextMeshPro>().SetText("Frame 1: (" + frame1.position.x.ToString("F5") + ", " + frame1.position.y.ToString("F5") + ", " + frame1.position.z.ToString("F5") + ")\n" + "(" + frame1.eulerAngles.x.ToString("F3") + ", " + frame1.eulerAngles.y.ToString("F3") + ", " + frame1.eulerAngles.z.ToString("F3") + ")");
+        canvas.GetChild(2).GetComponent<TextMeshPro>().SetText("Frame 2: (" + frame2.position.x.ToString("F5") + ", " + frame2.position.y.ToString("F5") + ", " + frame2.position.z.ToString("F5") + ")\n" + "(" + frame2.eulerAngles.x.ToString("F3") + ", " + frame2.eulerAngles.y.ToString("F3") + ", " + frame2.eulerAngles.z.ToString("F3") + ")");
+        canvas.GetChild(3).GetComponent<TextMeshPro>().SetText("Frame 3: (" + frame3.position.x.ToString("F5") + ", " + frame3.position.y.ToString("F5") + ", " + frame3.position.z.ToString("F5") + ")\n" + "(" + frame3.eulerAngles.x.ToString("F3") + ", " + frame3.eulerAngles.y.ToString("F3") + ", " + frame3.eulerAngles.z.ToString("F3") + ")");
+        canvas.GetChild(4).GetComponent<TextMeshPro>().SetText("Frame 4: (" + frame4.position.x.ToString("F5") + ", " + frame4.position.y.ToString("F5") + ", " + frame4.position.z.ToString("F5") + ")\n" + "(" + frame4.eulerAngles.x.ToString("F3") + ", " + frame4.eulerAngles.y.ToString("F3") + ", " + frame4.eulerAngles.z.ToString("F3") + ")");
+        canvas.GetChild(5).GetComponent<TextMeshPro>().SetText("Frame 5: (" + frame5.position.x.ToString("F5") + ", " + frame5.position.y.ToString("F5") + ", " + frame5.position.z.ToString("F5") + ")\n" + "(" + frame5.eulerAngles.x.ToString("F3") + ", " + frame5.eulerAngles.y.ToString("F3") + ", " + frame5.eulerAngles.z.ToString("F3") + ")");
+        canvas.GetChild(6).GetComponent<TextMeshPro>().SetText("Frame 6: (" + frame6.position.x.ToString("F5") + ", " + frame6.position.y.ToString("F5") + ", " + frame6.position.z.ToString("F5") + ")\n" + "(" + frame6.eulerAngles.x.ToString("F3") + ", " + frame6.eulerAngles.y.ToString("F3") + ", " + frame6.eulerAngles.z.ToString("F3") + ")");
     }
 
     // Create a GUI to list information
