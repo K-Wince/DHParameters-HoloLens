@@ -1,4 +1,4 @@
-DH-Parameters
+DHParameters-HoloLens
 ===
 A Unity3D application using ARToolKitUWP for tracking links on a Fanuc LR Mate 200iD to display D-H Coordinate Frames. It has already imported ```ARToolKitUWP.unitypackage``` and ```ARToolKitUWP-Sample.unitypackage``` from [HoloLensARToolKit - Long Qian](https://github.com/qian256/HoloLensARToolKit).
 
@@ -41,5 +41,8 @@ The following versions of the software are used for development.
 * Unity 2019.4.17f1
 * Windows 10 SDK 10.10240.0 +
 * Visaul Studio 2019 for deployment to HoloLens 2
+
+## Academic Citation
+If this work helps you in your research, please cite the following paper:
 
 ---
